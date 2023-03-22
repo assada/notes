@@ -1,6 +1,6 @@
 #RadioMaster TX16S
 
-![Загальний Вигляд](https://i.imgur.com/sskDh8j.png)
+![Загальний Вигляд](https://i.imgur.com/sskDh8j.png){.md-cover .md-img-r}
 
 Існує 2 версії з двума типами вбудованих систем. MK1 і MK2 з системами ELRS і 4in1. Наприклад RadioMaster TX16S MK2 ELRS
 
