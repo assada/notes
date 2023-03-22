@@ -32,3 +32,5 @@
 
 ## Корисні посилання
 * https://www.team-blacksheep.com/tbs-crossfire-manual.pdf
+* ExpressLRS definitive getting started guide: https://www.youtube.com/watch?v=J3Hg2f7RL1A
+* TBS Crossfire Beginner Guide https://www.youtube.com/watch?v=Ypn71lIu8l8
