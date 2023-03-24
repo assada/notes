@@ -8,4 +8,10 @@ ELRS (#rc/general.md) версія має вбудований передава�
 
 Пульт працює від двох 18650 ==(2S 7.4В LiPo)==, має USB-C та слот карт памʼяті. Працює на системі OpenTX https://github.com/opentx/opentx або EdgeTX https://github.com/EdgeTX/edgetx ==(умовно те саме що OpenTX, але Edge...)==
 
-Зовнішні модулі розміру micro. Також існують перехідники micro<>nano
+Зовнішні модулі розміру **micro**. Також існують перехідники micro<>nano
+
+# Корисні посилання
+* прошивка https://github.com/EdgeTX/edgetx/releases
+* контент SD карти: https://github.com/EdgeTX/edgetx-sdcard (480×272)
+* озвучка https://github.com/EdgeTX/edgetx-sdcard-sounds
+* LUA скрипти https://github.com/EdgeTX/lua-scripts (https://www.team-blacksheep.com/products/prod:agentx)
