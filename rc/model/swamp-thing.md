@@ -10,4 +10,4 @@
 
 Був використаний **Ublox Matek M10, GNSS & COMPASS M10-5883** схема підключення описана в #crossfire.md
 
-![Віджет мапи](https://i.imgur.com/9jEFtnw.jpg){.md-img-r}
+![Віджет мапи](https://i.imgur.com/9jEFtnw.jpg){.md-cover .md-img-r}
