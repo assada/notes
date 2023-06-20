@@ -31,11 +31,57 @@ DMR, D-STAR, YSF, P25 — радіоаматори дуже полюбляють
 * https://github.com/w9zep/Crazy-Horse-DMR-Server
 * https://github.com/hp3icc/Easy-FreeDMR-Docker
 
-
-
 ## Що таке PI-Star?
 
-PI-Star (https://www.pistar.uk/) це система управління MMDVM для Raspberry Pi. Вона дозволяє вам налаштувати MMDVM для використання з різними мастер серверами. 
+**PI-Star** (https://www.pistar.uk/) це система управління MMDVM для Raspberry Pi. Вона дозволяє вам налаштувати MMDVM для використання з різними мастер серверами. 
+
+**PI-Star** включає, але не обмежуєтсья, великим списоком попередньо встановлених компонентів і графічну веб-панель для управління ними. Сама панель написана на PHP і здебільшого використовується для відображення данних та налаштування конфігураційних файлів. Всі інші компоненти це C\C++ програми, які виконуються в фоновому режимі.
+
+### Основні компоненти
+
+![Статус компонентів можна побачити на Admin Dashboard](https://i.imgur.com/BOJgBGX.png){.md-cover .md-img-r}
+
+* MMDVM Host - Є частиною платформи MMDVM. Дозволяє підключатися до мереж: D-STAR, DMR, YSF, NXDN, P25...
+* APRS Gateway - Шлюз APRS. Дозволяє підключатися до APRS мережі.
+* DstarRepeater - Дозволяє використовувати пристрій як D-STAR точки доступу/ретранслятора.
+* ircDDBGateway - Шлюз Дозволяє підключатися до мережі D-STAR.
+* TimeServer - транслює час для D-STAR.
+* DMR Gateway - Шлюз Дозволяє підключатися до мережі DMR.
+* YSF Gateway - Шлюз Дозволяє підключатися до мережі YSF.
+* YSF2DMR - Є програмним перекодировщиком з YSF. Дозволяє підключатися до мережі DMR використовуючи YSF.
+* DMR2YSF - Є програмним перекодировщиком з DMR. Дозволяє підключатися до мережі YSF використовуючи DMR.
+* Pi-Star Remote - Дозволяє керувати хотсоптом по рідо каналу.
+
+Керувати Pi-Star по радіо каналу потрібно лише в зоні впевненого прийому, щоб гарантувати виконання команди.
+
+Приклад Pi-Star Remote команд для різних модів:
+
+```conf
+[d-star]
+# UR fields
+svckill=SVCKILL
+svcrestart=SVCRSTRT
+reboot=REBOOTPI
+#shutdown=SHUTDOWN
+#8Ball=8BALL
+
+[dmr]
+# TG commands
+reconnect=8999994
+hostfiles=8999995
+svckill=9999999
+svcrestart=9999998
+reboot=9999997
+#shutdown=9999996
+
+[ysf]
+# ROOM commands
+svckill=99999
+svcrestart=99998
+reboot=99997
+#shutdown=99996
+```
+
 
 ![Dashboard що показує статус систем та модів. Можна побачити активність на мастерсервері](https://i.imgur.com/SmKB8Ka.jpeg){.md-cover .md-img-r}
 
