@@ -1,3 +1,9 @@
+---
+Author: Assada
+Title: Flipper Zero Українською
+Description: Загалні відомості про Flipper Zero
+---
+
 # Flipper Zero
 
 ![Загальний Вигляд](https://i.imgur.com/gld1jRC.jpeg){.md-cover .md-img-r}

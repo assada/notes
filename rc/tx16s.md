@@ -1,3 +1,9 @@
+---
+Author: Assada
+Title: Про роботу радіоапаратури RadioMaster TX16S
+Description: Про RadioMaster TX16S
+---
+
 # RadioMaster TX16S
 
 ![Загальний Вигляд](https://i.imgur.com/sskDh8j.png){.md-cover .md-img-r}

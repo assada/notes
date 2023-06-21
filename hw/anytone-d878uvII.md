@@ -1,3 +1,9 @@
+---
+Author: Assada
+Title: AnyTone D878UVII PLUS
+Description: Трохи цікавої інформації про рацію AnyTone D878UVII PLUS
+---
+
 # AnyTone D878UVII PLUS
 
 ## Історія "Пароль прошивки AnyTone D878UVII PLUS"

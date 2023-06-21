@@ -1,3 +1,8 @@
+---
+Author: Assada
+Title: Про цей блог.
+---
+
 # About
 Привіт. Тут можна читати всі мої особисті записи. Вони також опубліковані на [GitHub](https://github.com/assada/notes).
 

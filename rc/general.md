@@ -1,3 +1,9 @@
+---
+Author: Assada
+Title: Загальні відомості про радіокеровані штуки
+Description: CrossFire, ELRS що ж краще?
+---
+
 # RC General
 
 ![ELRS vs TBS](https://i.imgur.com/2b9lWO2.png){.md-cover .md-img-r}

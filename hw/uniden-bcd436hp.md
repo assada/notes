@@ -1,3 +1,9 @@
+---
+Author: Assada
+Title: Про роботу зі сканером Uniden BCD436HP/536HP
+Description: Про Uniden BCD436HP/536HP
+---
+
 # Uniden BCD436HP/536HP Digital Scanner
 
 ![Загальний Вигляд](https://i.imgur.com/w97cPnh.png){.md-cover .md-img-r}
