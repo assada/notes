@@ -91,3 +91,10 @@ reboot=99997
 ![Загальний вигляд робочого столу з відкритим Live Caller Display в W0CHP-PiStar-Dash (WPSD)](https://i.imgur.com/INmGQq9.jpeg){.md-cover .md-img-r}
 
 Загалом можу написати Quick Start Guide для Pi-Star і MMDVM. Якщо цікаво, то пишіть в коментарях. ==Але кому воно потрібне. Це, всеодно, ніхто не читає==
+
+
+```javascript
+console.log('Hello World!');
+```
+
+
