@@ -29,7 +29,10 @@ jobs:
           username: ${{ secrets.USERNAME }}
           key: ${{ secrets.KEY }}
           port: ${{ secrets.PORT }}
-          script: cd /root/assada.dead.guru/ &&  git submodule update --remote --merge
+          script: |
+              cd /root/assada.dead.guru/ &&  git submodule update --remote --merge
+              docker compose exec assada-php php artisan cache:clear
+              docker compose exec assada-php php artisan route:cache
 
       - name: send telegram message on push
         uses: appleboy/telegram-action@master
