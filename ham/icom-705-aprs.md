@@ -2,7 +2,7 @@
 Author: Assada
 Title: APRS на ICOM IC-705
 Description: Налаштування SoundModem та PinPoint APRS для роботи з ICOM IC-705 в Windows.
-Preview: https://assada.dead.guru/storage/images/photo_2023-07-0822.26.34.jpeg
+Preview: https://assada.dead.guru/storage/images/h_pe_h7_p_y.png
 ---
 
 # APRS на ICOM IC-705
